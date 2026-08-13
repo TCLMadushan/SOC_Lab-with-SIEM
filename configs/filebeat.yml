@@ -1,0 +1,24 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/ossec/logs/alerts/alerts.json
+
+  json.keys_under_root: true
+  json.add_error_key: true
+  json.overwrite_keys: true
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+setup.template.settings:
+  index.number_of_shards: 1
+
+setup.kibana:
+  host: "http://localhost:5601"
+
+output.elasticsearch:
+  hosts: ["http://localhost:9200"]
+
+logging.level: info
