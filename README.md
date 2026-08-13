@@ -28,16 +28,20 @@ Welcome to my SOC Lab repository! This project showcases the design, manual depl
 ```
 
 ## Lab Environment
-Component	      IP Address	      Description
-SIEM Server	    192.168.56.20	    Wazuh + Elastic Stack
-Linux Agent	    192.168.56.11	    Monitored Endpoint
-Windows Agent	  192.168.56.10	    (Optional Extension)
+
+| Component | IP Address | Description |
+| --- | --- | --- |
+| SIEM Server | 192.168.56.20 | Wazuh + Elastic Stack |
+| Linux Agent | 192.168.56.11 | Monitored Endpoint | 
+| Windows Agent | 192.168.56.10 | (Optional Extension) | 
 
 ## Technologies Used
-Wazuh (Open-source SIEM & XDR)
-Elastic Stack (Elasticsearch, Kibana, Filebeat)
-Ubuntu Linux (Server & Client OS)
-VirtualBox (Virtualization)
+ - Wazuh (SIEM)
+ - Elasticsearch
+ - Kibana
+ - Filebeat
+ - Ubuntu Linux
+ - VirtualBox
 
 ## Key Achievements
  - Successfully architected and deployed a SIEM lab entirely from scratch.
@@ -55,14 +59,13 @@ VirtualBox (Virtualization)
 
 ## Project Structure
 
-SOC-Linux-Lab/
-│
-├─ README.md         # Project Documentation
-├─ diagrams/         # Architecture diagrams
-├─ scripts/          # Automation and setup scripts
-├─ screenshots/      # Visual evidence of lab setup & alerts
-├─ reports/          # Generated security reports
-└─ configs/          # Backup of custom configuration files (YAML, XML)
+SOC-Linux-Lab/  
+├─ README.md/         
+├─ diagrams/         
+├─ scripts/          
+├─ screenshots/      
+├─ reports/          
+└─ configs/          
 
  ## Future Improvements
   - Deploy and configure a Windows Agent for cross-platform monitoring.
@@ -71,5 +74,5 @@ SOC-Linux-Lab/
   - Build advanced, role-based Kibana dashboards for executive reporting.
 
  ## Author 
- TCL Madushan
+ TCL Madushan  
  Cybersecurity Enthusiast | Aspiring SOC Analyst
