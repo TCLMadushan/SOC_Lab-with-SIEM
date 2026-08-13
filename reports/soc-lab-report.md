@@ -221,6 +221,6 @@ The lab provides hands-on experience in monitoring, detecting, and analyzing sec
 
 ## Author
 
-**Suresh Bhanuka**
+**TCL Madushan**
 Cybersecurity Undergraduate
-SOC Lab Project
+SOC Lab with SIEM
